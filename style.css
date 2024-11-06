@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background-color: #f1f3f4;
+}
+
+form{
+    height: 500px;
+    width: 300px;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px 5px gray;
+    font-family: "Arial", sans-serif;
+    text-align: center;
+    padding: 40px;
+}
+
+#sign_in_word{
+    color: blue;
+    font-size: 25px;
+}
+
+#email , #password{
+    border-radius: 100px;
+    width: 100%;
+    height: 50px;
+    margin-top: 40px;
+    border: 1px solid #ccc;
+    background-color: hsl(0, 21%, 85%);
+}
+
+button{
+    border: 0px;
+    color: white;
+    background-color: #1a73e8;
+    margin-top: 55px;
+    border-radius: 100px;
+    width: 250px;
+    height: 50px;
+    cursor: pointer;
+}
+
+button:active{
+    background-color: #1a73e8c5;
+}
